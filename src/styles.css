@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(197, 195, 195);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.unstyled {
+  list-style-type: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.names {
+  margin: 7rem;
+  width: 30rem;
+}
+
+.names > ul > li {
+  margin-top: 2rem;
+  margin-right: 0rem;
+  font-size: 1.5rem;
+}
+
+.lastnames {
+  margin: 7rem;
+  margin-left: 1rem;
+  width: 30rem;
+}
+
+.lastnames > ul > li {
+  margin-top: 2rem;
+  width: 15rem;
+  font-size: 1.5rem;
+}
+
+.scores {
+  margin: 7rem;
+  width: 15rem;
+  margin-left: 1rem;
+}
+
+.scores > ul > li {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  width: 15rem;
+  font-size: 1.5rem;
+}
+
+.buttons {
+  margin: 7rem;
+  margin-left: 0rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons > a > button {
+  margin-top: 2rem;
+  font-size: 1rem;
+  padding: 0.1rem;
+}
+
+.post {
+  text-align: center;
+  width:70%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 8rem;
+  padding: 5rem;
+  display: grid;
+  gap: 2rem;
+  color: white;
+  background-color: rgb(38, 38, 38);
+}
+
+
+
